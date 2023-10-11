@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link href="stylefake.css">
+    <script>
+         function consultar(){
+            fetch('https://fakestoreapi.com/products/1')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+         }
+         const id = products.id
+         let = products.id
+         const image = products.image
+         const category = products.category
+
+    </script>
+</head>
+<body>
+    <div>
+        <form action="" >
+        <h1 >Fake_Store</h1><br>
+        <input type="name" name="products">
+        <button id="boton" type="search" onclick="consultar()" >Buscar Producto</button>
+        
+    </div>
+</body>
+</html>
